@@ -17,11 +17,11 @@
 		<!-- Wrapper -->
 			<div id="wrapper" class="fade-in">
 
-				<!-- Intro -->
+				<!-- Intro --> 
 					<div id="intro">
 						<h1>Welcome to<br />
 						Daniel Purrier's Portfolio</h1>
-						<p>Data Analyst/Scientist skilled in SQL, Python, Tableau, and Machine Learning</p>
+						<p>Hello all and welcome!!! I am a Data Specialist skilled in SQL, Python, Tableau, and Machine Learning. This first tab/page has every project I have completed. See the Job Sim, School Projects, Machine Learning, or the School Modules tab for easier/specific referencing. Enjoy!!!!!</p>
 						<p><a href="https://www.linkedin.com/in/daniel-purrier-37165152/">Linkedin Profile</a></p>
 						
 						<ul class="actions">
@@ -31,14 +31,18 @@
 
 				<!-- Header -->
 					<header id="header">
-						<a href="#" class="logo"> Welcome </a>
+						<a href="#" class="logo"> All Projects </a>
 					</header>
 
 				<!-- Nav -->
 					<nav id="nav">
 						<ul class="links">
-							<li class="active"><a href="index.html"> Data Projects</a></li>
-							
+							<li class="active"><a href="index.html"> All Projects</a></li>
+        					<li><a href="job_sims.html">Job Sim Projects</a></li>
+        					<li><a href="school_projects.html">Class Projects</a></li>
+       						<li><a href="machine_learning.html">Machine Learning</a></li>
+							<li><a href="tableau.html">Tableau</a></li>
+        					<li><a href="school_modules.html">Class Modules</a></li>
 						</ul>
 						<ul class="icons">
 							<li><a href="https://www.linkedin.com/in/daniel-purrier-37165152/" class="icon brands alt fa-linkedin"><span class="label">Linkedin</span></a></li>
@@ -49,30 +53,49 @@
 				<!-- Main -->
 					<div id="main">
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									
-									
-									<h2><a href="https://github.com/purribd8/revenue_analysis">Cost Efficiency & Profitability Analysis</a></h2>
-									<h3>|Personal Project|</h3>
-									<p>This project analyzes hospital financial performance by examining revenue, expenses, and cost efficiency. It calculates the Expense-to-Revenue Ratio for each hospital, identifying those with high operational costs. Through visualizations such as bar charts and line plots, the project highlights financial trends over time, comparing revenue and expenses. These insights can help hospitals or any applicable business optimize budgeting and improve financial sustainability.</p>
+						<!-- Posts -->
+						<section class="posts">
+							<article>
+								<header>
+									<h2><a href="https://github.com/purribd8/BA_customer_bookings/tree/main">Optimizing Airline Bookings: A Predictive Approach (Task 2 of 2) </a></h2>
+									<h4>|Job Simulation|</h4>
 								</header>
-								<a href="https://github.com/purribd8/revenue_analysis" class="image main"><img src="images/cost.jpg" alt="" width="500" height="500" /></a>
+								<a href="https://github.com/purribd8/BA_customer_bookings/tree/main" class="image fit"><img src="images/BA.jpg" alt="" /></a>
+								<p>A second British Airways job simulation from theforage.com that utilizes machine learning to predict customer booking behavior based on various flight and passenger-related features. It begins with exploratory data analysis (EDA) to identify trends and patterns in the dataset. Logistic Regression and Random Forest models are trained to classify booking completion, evaluated using accuracy, AUC score, and classification reports. Feature importance analysis highlights key factors influencing bookings, providing actionable insights. The results help airlines optimize booking strategies and improve customer experience..</p>
 								<ul class="actions special">
-									<li><a href="https://github.com/purribd8/revenue_analysis" class="button large">View Project</a></li>
+									<li><a href="https://github.com/purribd8/BA_customer_bookings/tree/main" class="button">View Project</a></li>
+								</ul>
+							</article>
+							<article>
+								<header>
+									<h2><a href="https://github.com/purribd8/revenue_analysis">Cost Efficiency & Profitability Analysis</a></h2>
+									<h4>|Personal Project|</h4>
+								</header>
+								<a href="https://github.com/purribd8/revenue_analysis" class="image fit"><img src="images/cost.jpg" alt="" height="370" /></a>
+								<p>Analyzes hospital financial performance by examining revenue, expenses, and cost efficiency. It calculates the Expense-to-Revenue Ratio for each hospital, identifying those with high operational costs. Through visualizations such as bar charts and line plots, the project highlights financial trends over time, comparing revenue and expenses. These insights can help hospitals or any applicable business optimize budgeting and improve financial sustainability.</p>
+								<ul class="actions special">
+									<li><a href="https://github.com/purribd8/revenue_analysis" class="button">View Project</a></li>
+								</ul>
+							</article>
+							<article>
+								<header>
+									<h2><a href="https://github.com/purribd8/BA_customer_reviews/tree/main">BA Reviews Scraper & Analyzer (Task 1 of 2) </a></h2>
+									<h4>|Job Simulation|</h4>
+								</header>
+								<a href="https://github.com/purribd8/BA_customer_reviews/tree/main" class="image fit"><img src="images/BA.jpg" alt="" /></a>
+								<p>This British Airways job simulation from theforage.com is based off real world applications that current data scientist working for British Airways are tasked with. It focuses on web scraping and sentiment analysis of British Airways customer reviews from Skytrax using BeautifulSoup and Python. The results provide insights into customer experiences, helping to identify areas for airline service improvement. The extracted reviews were cleaned and stored in a structured CSV format for further analysis. Natural Language Processing (NLP) techniques, including sentiment analysis and topic modeling (NMF & TF-IDF), were applied to identify key themes and customer sentiments. Visualizations created with Matplotlib and Seaborn showcased sentiment distribution and topic trends, while bigram analysis highlighted commonly associated phrases.</p>
+								<ul class="actions special">
+									<li><a href="https://github.com/purribd8/BA_customer_reviews/tree/main" class="button">View Project</a></li>
 								</ul>
 							</article>
 
-						<!-- Posts -->
-							<section class="posts">
 								<article>
 									<header>
 										<h2><a href="https://github.com/purribd8/forcasting_restocking">Restaurant restocking demand with Machine Learning</a></h2>
 										<h4>|Personal Project|</h4>
 									</header>
 									<a href="https://github.com/purribd8/forcasting_restocking" class="image fit"><img src="images/food.jpg" alt="" height="370" /></a>
-									<p>This project focuses on predicting meal order demand using machine learning, specifically a Random Forest Regressor. It involves data preprocessing, feature engineering, and hyperparameter tuning with GridSearchCV to optimize model performance. The final model was evaluated using MAE, MSE, and R² scores, with insights visualized through feature importance analysis and correlation heatmaps to enhance forecasting accuracy. This project can be applied business that needs to manage restocking. </p>
+									<p>Focuses on predicting meal order demand using machine learning, specifically a Random Forest Regressor. It involves data preprocessing, feature engineering, and hyperparameter tuning with GridSearchCV to optimize model performance. The final model was evaluated using MAE, MSE, and R² scores, with insights visualized through feature importance analysis and correlation heatmaps to enhance forecasting accuracy. This process can be applied to any business that needs to manage restocking. </p>
 									<ul class="actions special">
 										<li><a href="https://github.com/purribd8/forcasting_restocking" class="button">View Project</a></li>
 									</ul>
@@ -80,10 +103,10 @@
 								<article>
 									<header>
 										<h2><a href="https://github.com/jessicawayne96/ds_apr2024_project_2_group_12/tree/main">Comprehensive ETL Pipeline for Campaign and Contact Data</a></h2>
-										<h4>|School Project|</h4>
+										<h4>|Class Project|</h4>
 									</header>
 									<a href="https://github.com/jessicawayne96/ds_apr2024_project_2_group_12/tree/main" class="image fit"><img src="images/ETL.webp" alt="" height="370" /></a>
-									<p>This project demonstrates the development of an end-to-end Extract, Transform, and Load (ETL) pipeline to process, clean, and analyze campaign and contact data from multiple sources. Using Python, SQL, and data visualization tools, this project integrates diverse datasets into a structured format suitable for analysis and reporting. This ETL pipeline showcases data engineering, SQL, and Python-based analysis while producing actionable insights from complex data structures.</p>
+									<p>Demonstrates the development of an end-to-end Extract, Transform, and Load (ETL) pipeline to process, clean, and analyze campaign and contact data from multiple sources. Using Python, SQL, and data visualization tools, this project integrates diverse datasets into a structured format suitable for analysis and reporting. This ETL pipeline showcases data engineering, SQL, and Python-based analysis while producing actionable insights from complex data structures.</p>
 									<ul class="actions special">
 										<li><a href="https://github.com/jessicawayne96/ds_apr2024_project_2_group_12/tree/main" class="button">View Project</a></li>
 									</ul>
@@ -95,7 +118,7 @@
 										<h4>|Personal Project|</h4>
 									</header>
 									<a href="https://github.com/purribd8/matplotlib_plotly/tree/main" class="image fit"><img src="images/plot.jpg" alt="" height ='300' /></a>
-									<p>This project is an exploration of randomness through dice roll simulations and random walks, visualized using Plotly and Matplotlib. By simulating 1000 dice rolls and tracking the frequency of each outcome, I created an interactive bar chart to display the results. Additionally, the random walk was plotted using Matplotlib to show the unpredictable nature of movement in two dimensions. The project highlights my ability to work with both statistical simulations and advanced visualization techniques to present data in a compelling way.</p>
+									<p>An exploration of randomness through dice roll simulations and random walks, visualized using Plotly and Matplotlib. By simulating 1000 dice rolls and tracking the frequency of each outcome, I created an interactive bar chart to display the results. Additionally, the random walk was plotted using Matplotlib to show the unpredictable nature of movement in two dimensions. The project highlights my ability to work with both statistical simulations and advanced visualization techniques to present data in a compelling way.</p>
 									<ul class="actions special">
 										<li><a href="https://github.com/purribd8/matplotlib_plotly/tree/main" class="button">View Project </a></li>
 									</ul>
@@ -116,10 +139,10 @@
 									<header>
 										
 										<h2><a href="https://github.com/AIDecisions/capstone_project">Machine Learning Anime Recommender</a></h2>
-										<h4>|School Project|</h4>
+										<h4>|Class Project|</h4>
 									</header>
 									<a href="https://github.com/AIDecisions/capstone_project" class="image fit"><img src="images/ml2.jpeg" alt="" width="600" height="300"/></a>
-									<p>In this project, a recommendation system for anime is built using the k-Nearest Neighbors algorithm. The system suggests anime based on user preferences, considering factors such as rating and genre, and employs various distance metrics like Cosine, Euclidean, and Manhattan for similarity calculations. The project includes data preprocessing techniques like imputation and feature encoding to prepare the dataset for accurate predictions.</p>
+									<p>A recommendation system for anime built using the k-Nearest Neighbors algorithm. The system suggests anime based on user preferences, considering factors such as rating and genre, and employs various distance metrics like Cosine, Euclidean, and Manhattan for similarity calculations. The project includes data preprocessing techniques like imputation and feature encoding to prepare the dataset for accurate predictions.</p>
 									<ul class="actions special">
 										<li><a href="https://github.com/AIDecisions/capstone_project" class="button">View Project</a></li>
 									</ul>
@@ -131,13 +154,22 @@
 								</a></h2>
 								</header>
 								<a href="https://public.tableau.com/app/profile/daniel.purrier/vizzes" class="image fit"><img src="images/tab.png" alt="" height="370" /> </a>
-								<p>
-									This portfolio showcases three distinct Tableau dashboards, each designed to provide valuable insights in different domains. The "Anime Insights" dashboard offers an in-depth analysis of anime data, revealing trends and patterns based on user preferences and ratings. The "Citibike Operations" dashboard focuses on real-time and historical data of Citibike usage, providing operational insights into bike-sharing patterns. Lastly, the "Equake Magnitude" dashboard visualizes earthquake data, allowing users to explore global seismic activity and trends. </p>
+								
 								<ul class="actions special">
 									<li><a href="https://public.tableau.com/app/profile/daniel.purrier/vizzes" class="button">View Tableau</a></li>
 								</ul>
-							</article>
-
+								</article>
+								<article>
+								<header>
+									<h2><a href="https://github.com/AIDecisions/project-1-group-15/tree/main">Diversity Trends in Tech</a></h2>
+									<h4>|Class Project|</h4>
+								</header>
+								<a href="https://github.com/AIDecisions/project-1-group-15/tree/main" class="image fit"><img src="images/Diversity.webp" alt="" height="370" /></a>
+								<p>Investigates diversity in the tech sector, focusing on gender and racial representation from 2014 to 2018. Using Python, Pandas, and Matplotlib, it visualizes key trends through bar charts, scatter plots, and regression analysis, providing a comprehensive look at inclusion efforts in the industry.</p>
+								<ul class="actions special">
+									<li><a href="https://github.com/AIDecisions/project-1-group-15/tree/main" class="button">View Project</a></li>
+								</ul>
+								</article>
 								<article>
 									<header>
 										
@@ -155,7 +187,7 @@
 								<article>
 									<header>
 										<h2><a href="https://github.com/purribd8/sql_views_project/tree/main"> Limiting Views Database using SQL</a></h2>
-										<h4>|Personal Project !!!|</h4>
+										<h4>|Personal Project|</h4>
 									</header>
 									<a href="https://github.com/purribd8/sql_views_project/tree/main" class="image fit"><img src="images/sql.jpg" alt="" width="500" height="370" /></a>
 									<p>Developed a secure employee management database system to efficiently store and organize employee data. The project included creating a detailed schema with employee details and implementing role-based access control to ensure data security. I also designed a custom view to restrict sensitive information while providing department-specific access to relevant data. This project showcases my expertise in SQL, database design, and implementing security measures in business systems.</p>
@@ -167,10 +199,10 @@
 								<article>
 									<header>
 										<h2><a href="https://github.com/HagenGrant/project-3-group-18/blob/main/app/static/js/map.js">Tornado Impact Map: A Visual Story of Destruction (JavaScript)</a></h2>
-										<h4>|School Project|</h4>
+										<h4>|Class Project|</h4>
 									</header>
 									<a href="https://github.com/HagenGrant/project-3-group-18/blob/main/app/static/js/map.js" class="image fit"><img src="images/jav.jpg" alt="" height="370" /></a>
-									<p>This project visualizes tornado data using JavaScript and Leaflet, leveraging heatmaps and interactive maps to display tornado locations and strengths. The map is built with data sourced from a CSV file, which includes tornado categories, damage costs, and other related information. It allows users to filter tornado data by year and visualize the intensity and distribution of tornadoes using heat layers, marker clusters, and circle overlays. The project combines data-driven visualization with user interaction to provide a clear and engaging experience for exploring tornado patterns.</p>
+									<p>Visualizes tornado data using JavaScript and Leaflet, leveraging heatmaps and interactive maps to display tornado locations and strengths. The map is built with data sourced from a CSV file, which includes tornado categories, damage costs, and other related information. It allows users to filter tornado data by year and visualize the intensity and distribution of tornadoes using heat layers, marker clusters, and circle overlays. The project combines data-driven visualization with user interaction to provide a clear and engaging experience for exploring tornado patterns.</p>
 									<ul class="actions special">
 										<li><a href="https://github.com/HagenGrant/project-3-group-18/blob/main/app/static/js/map.js" class="button">View Project</a></li>
 									</ul>

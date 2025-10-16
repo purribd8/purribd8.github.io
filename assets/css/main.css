@@ -4620,7 +4620,6 @@ input, select, textarea {
 			right: 0;
 			text-align: right;
 			top: 0;
-			vertical-align: middle;
 			width: 7rem;
 		}
 
@@ -4687,3 +4686,42 @@ input, select, textarea {
 		}
 
 	}
+/* === Scroll bar controls === */
+#nav .links {
+  overflow-x: auto;           /* allow left-right scrolling */
+  overflow-y: hidden;         /* completely remove vertical scrollbar */
+  white-space: nowrap;        /* keep links on a single line */
+  -webkit-overflow-scrolling: touch; /* smooth mobile scroll */
+  scrollbar-width: thin;      /* hide scrollbar in Firefox */
+}
+
+#nav .links li {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+/* === Social Media Icons === */
+.center-icons {
+  text-align: center;
+  padding-bottom: 3.5rem; /* bottom margin creates space ABOVE the nav bar */
+}
+
+
+.center-icons .icons {
+  justify-content: center;
+  display: inline-flex;
+  gap: 1rem;
+}
+
+.center-icons .icons a {
+  color: #fff;
+  font-size: 1.7em;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.center-icons .icons a:hover {
+  transform: scale(1.2);
+  color: #00aced; /* or your accent color */
+}
+

